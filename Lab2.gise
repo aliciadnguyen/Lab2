@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Lab2.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CLA_test_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="CLA_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="CLA_test_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="MUX_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="RippleTest_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="RippleTest_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="adder4_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="mux2.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="mux2_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="mux_4_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="mux_4_test_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1445791280" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1445791280">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1445792415" xil_pn:in_ck="-7973597369921908893" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1445792415">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CLA.v"/>
+      <outfile xil_pn:name="CLA_test.v"/>
+      <outfile xil_pn:name="FullAdder.v"/>
+      <outfile xil_pn:name="RippleTest.v"/>
+      <outfile xil_pn:name="adder4_test.v"/>
+      <outfile xil_pn:name="mux2.v"/>
+      <outfile xil_pn:name="mux2_test.v"/>
+      <outfile xil_pn:name="mux_2.v"/>
+      <outfile xil_pn:name="mux_4_test.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1445792476" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1907698511202758566" xil_pn:start_ts="1445792476">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1445792476" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-7977496372129144124" xil_pn:start_ts="1445792476">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1445792476" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="1736325316404011821" xil_pn:start_ts="1445792476">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1445792415" xil_pn:in_ck="-7973597369921908893" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1445792415">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CLA.v"/>
+      <outfile xil_pn:name="CLA_test.v"/>
+      <outfile xil_pn:name="FullAdder.v"/>
+      <outfile xil_pn:name="RippleTest.v"/>
+      <outfile xil_pn:name="adder4_test.v"/>
+      <outfile xil_pn:name="mux2.v"/>
+      <outfile xil_pn:name="mux2_test.v"/>
+      <outfile xil_pn:name="mux_2.v"/>
+      <outfile xil_pn:name="mux_4_test.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1445792479" xil_pn:in_ck="-7973597369921908893" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4491580057065786939" xil_pn:start_ts="1445792476">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="CLA_test_beh.prj"/>
+      <outfile xil_pn:name="CLA_test_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1445792479" xil_pn:in_ck="4809695428159078288" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-8751047319957469794" xil_pn:start_ts="1445792479">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="CLA_test_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+  </transforms>
+
+</generated_project>

@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj Lab2 -o C:/Users/Alicia/Documents/CSE140L/Lab2/CLA.tfi -lib work C:/Users/Alicia/Documents/CSE140L/Lab2//CLA.v -module CLA -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

@@ -1,0 +1,29 @@
+Command line:
+   RippleTest_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57805
+
+Sun Oct 25 10:00:19 2015
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 357.401 Meg
+
+ Total Signals          : 66
+ Total Nets             : 52
+ Total Signal Drivers   : 38
+ Total Blocks           : 7
+ Total Primitive Blocks : 5
+ Total Processes        : 40
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 141
+Total Line Count : 19
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 357.401 Meg
+
+Sun Oct 25 10:00:28 2015
+
